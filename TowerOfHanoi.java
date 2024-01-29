@@ -44,5 +44,7 @@ public class TowerOfHanoi {
         System.out.println("Tower 2: " + T2);
         System.out.println("Tower 3: " + T3);
         System.out.println("------------------------");
+
+        System.out.println();
     }
 }
