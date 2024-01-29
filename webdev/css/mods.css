@@ -1,0 +1,95 @@
+p,
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #ffc72cc0;
+  font-family: 'Lucida Sans Unicode';
+  margin-bottom: 30px;
+}
+
+img {
+  width: 30%;
+  border-style: outset;
+  border-color: black;
+
+
+}
+
+body {
+
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url(pics/mcdonalds-background-lklrppjq458ohbfj.jpg);
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0px;
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 80vh;
+
+
+}
+
+.grid-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  position: absolute;
+  bottom: -55%;
+  right: 34%;
+  width: 30%;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #ffc72cc0;
+  color: black;
+  margin-left: 20px;
+}
+
+.next {
+  background-color: #DA291C;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}

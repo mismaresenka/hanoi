@@ -1,0 +1,106 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(187, 255, 0, 0.377), rgba(0, 0, 0, 0.73)),
+        url(pics/mcdonalds-background-lklrppjq458ohbfj.jpg);
+    background-color: #27251F;
+    /* z-index: -1; PRIORITY STACKING OF THE FRONT PAGE */ 
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.logo {
+    margin-top: 14px;
+}
+
+.topmenu {
+    background-color: #da291ca4;
+    height: 80;
+    /* position: relative; */
+    display: flex;
+    column-gap: 3em;
+    animation-name: fade-in-top;
+    
+    
+}
+
+.buttons {
+    margin: 0;
+    background-color: #da291ca4;
+    color: white;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    /* display: inline-block;  */
+    position: relative;
+    /* margin-top: 13; */
+
+    
+}
+
+abo.buttons {
+    margin-top: 21%;
+    margin-left: 15%;
+    /* margin: 0; */
+    background-color: #da291ca4;
+    color: white;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+    /* display: inline-block;  */
+    position: relative;
+    margin-top: 13;
+}
+
+log.buttons {
+    margin-left: 1.2%;
+}
+
+.buttons:hover {
+    background-color: hsla(44, 100%, 59%, 0.281);
+}
+
+.text {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 25%;
+}
+
+@-webkit-keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }

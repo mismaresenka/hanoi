@@ -1,0 +1,32 @@
+package cstFinal;
+
+import java.util.Scanner;
+
+public class cstProjMain {
+    public static void main(String[] args) {
+        cstProjMethods initialize = new cstProjMethods();
+        Scanner choice = new Scanner(System.in);
+        System.out.println("[1] Finite Automata\n[2] Turing Machine");
+        int input = choice.nextInt();
+        switch (input) {
+            case 1:
+                initialize.FA();
+                break;
+            case 2:
+                initialize.TM();
+                break;
+            default:
+                break;
+        }
+       //
+       
+       int[][] distances = {
+        { 0, 10, 15, 16, 87},
+        { 32, 0, 20, 17, 43},
+        { 12, 20, 0, 25, 26},
+        { 11, 20, 65, 0, 26},
+        { 8 , 20, 34, 25, 0}
+};
+       
+    }
+}

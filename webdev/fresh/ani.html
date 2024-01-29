@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .slide-out-top {
+      -webkit-animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+              animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    }
+
+    @-webkit-keyframes slide-out-top {
+      0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+      }
+    }
+
+    @keyframes slide-out-top {
+      0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
+      }
+    }
+
+    /* Add styling for demonstration purposes */
+    .animated-block {
+      width: 200px;
+      height: 200px;
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      line-height: 200px;
+      margin: 50px auto;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="animated-block" onclick="toggleAnimation(this)">Click me to slide out</div>
+
+  <script>
+    function toggleAnimation(element) {
+      element.classList.add('slide-out-top');
+    }
+  </script>
+
+</body>
+</html>

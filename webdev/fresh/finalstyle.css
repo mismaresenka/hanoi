@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+.textcontainer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.textcontainerrecipe {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 7px;
+    /* margin-right: 150px;
+    float: left;
+    white-space: nowrap; */
+}
+
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFC72C;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.377), #221f1f),
+        url(pics/mcdonalds-background-lklrppjq458ohbfj.jpg);
+}
+
+.navbar {
+    height: 80px;
+    background-color: #27251F;
+    display: flex;
+}
+
+.logo {
+    display: block;
+    margin-left: 20px;
+    margin-top: 13px;
+
+}
+
+main {
+    width: 1300px;
+    height: 1300px;
+    background-color: #424769;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.article {
+    width: 73%;
+    height: 80%;
+    margin-left: 30px;
+    background-color: #595f81;
+    border-radius: 20px;
+    padding: 30px;
+    float: left;
+    margin-right: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+art.article {
+    width: 1190px;
+    height: 1200px;
+}
+
+.article img {
+    margin-right: 15px;
+    border-radius: 20px 0 0 0;
+}
+
+.containerarticle {
+    width: auto;
+    background-color: #221f1f;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.sidesection {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background-color: #595f81;
+    border-radius: 20px;
+    margin-left: 20px;
+    float: left;
+
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: #221f1f;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+    height: auto;
+
+    margin: auto;
+    /* for center */
+    display: block;
+    /* for center */
+}
+
+.recipe {
+    background-color: 221f1f;
+
+    column-gap: 125px;
+    display: flex;
+}
+
+.container img {
+    width: 140px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #27251F;
+    color: #b9b9b9;
+    padding: 25px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* float: left;
+    margin-right: 00px; */
+}
+
+.buttons {
+    margin: 0;
+
+    color: white;
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+    position: relative;
+}
+
+.grid-container {
+    display: grid;
+
+    gap: 0px;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-color: 221f1f;
+    gap: 50px;
+
+}
+
+.grid-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 140px;
+}
+
+.description {
+    position: absolute;
+    margin-top: 190px;
+    margin-right: 19px;
+    color: #fff;
+
+    text-align: center;
+}

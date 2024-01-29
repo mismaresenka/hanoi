@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5px;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    
+   
+}
+
+.grid-item {
+    position: relative;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    display: block;
+}
+
+.description {
+    position: absolute;
+    bottom: 30;
+    left: 0;
+    width: 28%;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    
+    display: block;
+    clear: both; 
+}
